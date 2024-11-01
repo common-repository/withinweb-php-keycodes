@@ -1,0 +1,1054 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-04 13:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: admin/classes/about.php:14 admin/classes/buttoncode.php:14
+#: admin/classes/createitem.php:16 admin/classes/createitem.php:26
+#: admin/classes/createitem.php:170 admin/classes/deleteitem.php:15
+#: admin/classes/deleteitem.php:100 admin/classes/edititem.php:17
+#: admin/classes/edititem.php:194 admin/classes/listitems.php:14
+#: admin/classes/localtest.php:15 admin/classes/localtest.php:144
+#: admin/classes/premium.php:14 admin/classes/sales.php:14
+#: admin/classes/salesdetails.php:14 admin/classes/settings.php:16
+msgid "You are not allowed to be on this page."
+msgstr ""
+
+#: admin/classes/about.php:22
+msgid "WordPress PHP-KeyCodes - About"
+msgstr ""
+
+#: admin/classes/about.php:25 admin/classes/buttoncode.php:27
+#: admin/classes/createitem.php:183 admin/classes/deleteitem.php:113
+#: admin/classes/edititem.php:208 admin/classes/listitems.php:28
+#: admin/classes/localtest.php:167 admin/classes/premium.php:25
+#: admin/classes/sales.php:28 admin/classes/settings.php:137
+msgid "You are now in local test mode"
+msgstr ""
+
+#: admin/classes/about.php:33
+msgid "PHP-KeyCodes is brought to you from the withinweb.com web site."
+msgstr ""
+
+#: admin/classes/about.php:35 admin/classes/premium.php:35
+#: admin/classes/premium.php:81
+msgid "Go to WithinWeb.com web site"
+msgstr ""
+
+#: admin/classes/about.php:37 admin/classes/premium.php:70
+msgid "Installation"
+msgstr ""
+
+#: admin/classes/about.php:39 admin/classes/premium.php:72
+msgid ""
+"The installation into WordPress is the same as for any plugin as is the "
+"procedure for upgrades."
+msgstr ""
+
+#: admin/classes/about.php:41
+msgid ""
+"If you have the free version of the plugin, Deactivate and Delete it before "
+"you install the Premium version.  Having both the \n"
+"\t\t\t\t\t\t\tPremium and Free version active should not be an issue but may "
+"may cause confusion."
+msgstr ""
+
+#: admin/classes/about.php:44
+msgid ""
+"In the admin area of your WordPress site, click on \"New Plugin\" and then "
+"click on \"Upload Plugin\". Browse for \n"
+"\t\t\t\t\t\t\t\"withinweb-wwkcp-keycodes.zip\" on your computer and click on "
+"\"Install now\"."
+msgstr ""
+
+#: admin/classes/about.php:47
+msgid "Activate the plugin once it has been uploaded and un-zipped."
+msgstr ""
+
+#: admin/classes/about.php:49
+msgid ""
+"In the \"Settings\" of the KeyCodes menu, you must enter in your PRIMARY "
+"PayPal email address for payments."
+msgstr ""
+
+#: admin/classes/about.php:51
+msgid ""
+"Create an item and enter in the key codes in the key codes field one line at "
+"a time."
+msgstr ""
+
+#: admin/classes/about.php:53
+msgid ""
+"You may test the system using a local test without connecting to PayPal."
+msgstr ""
+
+#: admin/classes/about.php:55
+msgid ""
+"In \"Settings\" make sure you have selected the PayPal enviromment that you "
+"want to use, as either PayPal live or PayPal sandbox."
+msgstr ""
+
+#: admin/classes/about.php:57
+msgid ""
+"To display the PayPal button on your WordPress page, use the short code "
+"[keycodesbutton recid=\"x\"] where x is the record id \n"
+"\t\t\t\t\t\t\tof the product item. Or you can use the HTML code displayed "
+"from the \"Item List\" Page. You can get the record id of the \n"
+"\t\t\t\t\t\t\tproduct by going to \"Item List\"."
+msgstr ""
+
+#: admin/classes/about.php:61
+msgid "PHP-KeyCodes Settings"
+msgstr ""
+
+#: admin/classes/about.php:63
+msgid ""
+"Before you create your product items, first go to the \"Settings\" page."
+msgstr ""
+
+#: admin/classes/about.php:65
+msgid ""
+"The PayPal environment can be either Live or Sandbox.  If you are going to "
+"use the PayPal Sandbox testing environment, you also \n"
+"\t\t\t\t\t\t\tneed to enter the PayPal Sandbox email address which you will "
+"have to set up through the PayPal developer environment."
+msgstr ""
+
+#: admin/classes/about.php:68
+msgid ""
+"Note that the PayPal email address you enter into PHP-KeyCodes must be your "
+"Primary PayPal email address. You can set up multiple \n"
+"\t\t\t\t\t\t\temail addresses in PayPal but only the Primary PayPal address "
+"will work with the IPN system."
+msgstr ""
+
+#: admin/classes/about.php:71
+msgid ""
+"Also note that if you receive a purchase which has a currency that is not "
+"the same as your PayPal default currency, then you have \n"
+"\t\t\t\t\t\t\tto accept the currency code before the transaction is "
+"completed.  To overcome this, you can set your PayPal account to accept a \n"
+"\t\t\t\t\t\t\trange of different currencies."
+msgstr ""
+
+#: admin/classes/about.php:75
+msgid "PayPal activation"
+msgstr ""
+
+#: admin/classes/about.php:77
+msgid ""
+"Make sure that you have enabled IPN in your PayPal account. You may also "
+"have to enter in the IPN Call Back URL which you can get from \n"
+"\t\t\t\t\t\t\tthe \"Settings\" menu of the plugin."
+msgstr ""
+
+#: admin/classes/about.php:80
+msgid ""
+"The call back url is acutally sent to PayPal from PHP-KeyCodes as part of "
+"the button submission, which means that the url entered \n"
+"\t\t\t\t\t\t\tin PayPal setup can be different to the url needed for this "
+"plugin."
+msgstr ""
+
+#: admin/classes/about.php:83
+msgid ""
+"Hence it is possible to have multiple PayPal IPN systems without any "
+"conflicts."
+msgstr ""
+
+#: admin/classes/about.php:85
+msgid ""
+"The IPN system (Instant Payment Notification) is the way in which PayPal "
+"sends messages to and from PHP-KeyCodes.  PayPal will \n"
+"\t\t\t\t\t\t\tsend out a verified message only when the purchase is complete "
+"so you can be sure that no one can make a purchase without \n"
+"\t\t\t\t\t\t\tcorrect payment."
+msgstr ""
+
+#: admin/classes/about.php:89
+msgid "Creating your items"
+msgstr ""
+
+#: admin/classes/about.php:91
+msgid ""
+"The create item page should be self-explanatory.  The codes that you are "
+"going to sell go in the \"keycodes\" text box each one \n"
+"\t\t\t\t\t\t\tentered a line at a time.  The top key code will be removed "
+"when sold so that the next key code is avaiable for the next \n"
+"\t\t\t\t\t\t\tpurchase."
+msgstr ""
+
+#: admin/classes/about.php:95
+msgid "Short codes"
+msgstr ""
+
+#: admin/classes/about.php:97
+msgid "The PayPal buttons are created using short codes as follows:"
+msgstr ""
+
+#: admin/classes/about.php:101
+msgid "where x is the record id of the product item."
+msgstr ""
+
+#: admin/classes/about.php:103
+msgid "Place the short code onto any of your WordPress pages."
+msgstr ""
+
+#: admin/classes/about.php:105
+msgid "The short code options are:"
+msgstr ""
+
+#: admin/classes/about.php:111
+msgid "a required entry"
+msgstr ""
+
+#: admin/classes/about.php:114 admin/classes/about.php:119
+#: admin/classes/about.php:124 admin/classes/about.php:129
+#: admin/classes/settings.php:235 admin/classes/settings.php:240
+#: admin/classes/settings.php:245
+msgid "(optional)"
+msgstr ""
+
+#: admin/classes/about.php:116
+msgid ""
+"default of blank which can be used for the IPN custom field which you can "
+"use to return any information back."
+msgstr ""
+
+#: admin/classes/about.php:121
+msgid "default 1"
+msgstr ""
+
+#: admin/classes/about.php:126
+msgid "default of \"Buy with PayPal\""
+msgstr ""
+
+#: admin/classes/about.php:131
+msgid "default of \"button-primary\""
+msgstr ""
+
+#: admin/classes/about.php:135
+msgid "So a full example would be:"
+msgstr ""
+
+#: admin/classes/about.php:139
+msgid ""
+"You can get the record id of the product by listing the items in \"Item List"
+"\" page.  This page also has the short code displayed.  If\n"
+"\t\t\t\t\t\tyou want to use more conventional buttons which can be placed on "
+"non WordPress web pages, then use the html code which can also be\n"
+"\t\t\t\t\t\tdisplayed from the \"Item List\" page."
+msgstr ""
+
+#: admin/classes/about.php:143
+msgid "Testing"
+msgstr ""
+
+#: admin/classes/about.php:145
+msgid ""
+"The best way to test the application is to use a second live PayPal account "
+"as that tests the complete system.  You have to do this\n"
+"\t\t\t\t\t\t\tif you want to test live because PayPal does not allow you to "
+"purchase from your own account."
+msgstr ""
+
+#: admin/classes/about.php:148
+msgid ""
+"To open a second PayPal account you need a second bank account which some "
+"people may find difficult but you will find it worth \n"
+"\t\t\t\t\t\t\tdoing in the long run."
+msgstr ""
+
+#: admin/classes/about.php:151
+msgid ""
+"You can also use the PayPal Sandbox for testing which requires you work in "
+"the developer enviromment <strong>http://developer.paypal.com</strong>.  "
+"Login into \n"
+"\t\t\t\t\t\t\tthis using your normal PayPal account."
+msgstr ""
+
+#: admin/classes/about.php:154
+msgid ""
+"In the developer environment, you can create as many test acoounts as you "
+"want, and then set the PHP-KeyCodes to the sandbox environment.  \n"
+"\t\t\t\t\t\t\tYou also need to enter the sandbox email address into the "
+"\"Settings\" dsplay of PHP-KeyCodes."
+msgstr ""
+
+#: admin/classes/about.php:157 admin/classes/listitems.php:134
+msgid "Local Test"
+msgstr ""
+
+#: admin/classes/about.php:159
+msgid ""
+"PHP-KeyCodes has a local test facility which will test all the set up and "
+"email details, but does not go through PayPal."
+msgstr ""
+
+#: admin/classes/about.php:161
+msgid ""
+"Local test has to be enabled before it can be used by going to the \"Settings"
+"\" display and setting the \"Do Local Test\" check box.  Once\n"
+"\t\t\t\t\t\tyou have finished your local tests, you should un-tick this box."
+msgstr ""
+
+#: admin/classes/about.php:164
+msgid ""
+"The local test is useful if you don't want to sepend time going in and out "
+"of PayPal."
+msgstr ""
+
+#: admin/classes/about.php:166
+msgid "Logging"
+msgstr ""
+
+#: admin/classes/about.php:168
+msgid ""
+"Enable the debug log in the \"Setting\" section of PHP-KeyCodes.  This will "
+"create a file on your server in your WordPress \n"
+"\t\t\t\t\t\tinstallation which details the IPN results and other messages to "
+"show the path through the application."
+msgstr ""
+
+#: admin/classes/admindisplay.php:19
+msgid "Settings"
+msgstr ""
+
+#: admin/classes/admindisplay.php:20 admin/classes/createitem.php:281
+msgid "Create Item"
+msgstr ""
+
+#: admin/classes/admindisplay.php:21
+msgid "Item List"
+msgstr ""
+
+#: admin/classes/admindisplay.php:22
+msgid "Sales"
+msgstr ""
+
+#: admin/classes/admindisplay.php:23 admin/classes/posttypes.php:76
+#: admin/classes/posttypes.php:78 admin/classes/posttypes.php:79
+msgid "IPN Details"
+msgstr ""
+
+#: admin/classes/buttoncode.php:23
+msgid "WordPress PHP-KeyCodes - Button code"
+msgstr ""
+
+#: admin/classes/buttoncode.php:31
+msgid ""
+"If you want to add a purchase button onto a page outside of WordPress or "
+"even on another web site, then \n"
+"\t\t\t   copy the following code from below."
+msgstr ""
+
+#: admin/classes/buttoncode.php:151
+msgid "This is what the button will look like."
+msgstr ""
+
+#: admin/classes/createitem.php:178
+msgid "WordPress PHP-KeyCodes - Create a new item"
+msgstr ""
+
+#: admin/classes/createitem.php:179
+msgid "This page creates a new item"
+msgstr ""
+
+#: admin/classes/createitem.php:194 admin/classes/edititem.php:272
+#: admin/classes/sales.php:74 admin/classes/sales.php:88
+msgid "Item name"
+msgstr ""
+
+#: admin/classes/createitem.php:194 admin/classes/createitem.php:199
+#: admin/classes/createitem.php:204 admin/classes/createitem.php:209
+#: admin/classes/createitem.php:219 admin/classes/createitem.php:250
+#: admin/classes/createitem.php:257 admin/classes/createitem.php:268
+#: admin/classes/createitem.php:273 admin/classes/edititem.php:267
+#: admin/classes/edititem.php:272 admin/classes/edititem.php:277
+#: admin/classes/edititem.php:282 admin/classes/edititem.php:292
+#: admin/classes/edititem.php:322 admin/classes/edititem.php:327
+#: admin/classes/edititem.php:332 admin/classes/edititem.php:337
+#: admin/classes/settings.php:230
+msgid "(required)"
+msgstr ""
+
+#: admin/classes/createitem.php:199 admin/classes/edititem.php:267
+#: admin/classes/sales.php:75 admin/classes/sales.php:89
+msgid "Item number"
+msgstr ""
+
+#: admin/classes/createitem.php:204 admin/classes/edititem.php:277
+msgid "Item title"
+msgstr ""
+
+#: admin/classes/createitem.php:209 admin/classes/edititem.php:282
+msgid "Item Description"
+msgstr ""
+
+#: admin/classes/createitem.php:214 admin/classes/edititem.php:287
+#: admin/classes/listitems.php:78 admin/classes/listitems.php:95
+#: admin/classes/sales.php:78 admin/classes/sales.php:92
+msgid "Gross"
+msgstr ""
+
+#: admin/classes/createitem.php:214 admin/classes/edititem.php:287
+msgid "(required, in the form x.yz)"
+msgstr ""
+
+#: admin/classes/createitem.php:219 admin/classes/edititem.php:292
+#: admin/classes/listitems.php:79 admin/classes/listitems.php:96
+msgid "Currency"
+msgstr ""
+
+#: admin/classes/createitem.php:248
+msgid ""
+"Email Subject This is the subject of the email when \n"
+"\t\t\t\t\t\t\tan item is purchased.  <br/>The item name is substituted for "
+"item_name when the email is sent."
+msgstr ""
+
+#: admin/classes/createitem.php:255
+msgid ""
+"Email Text for key codes / pins / software \n"
+"\t\t\t\t\t\t\tlicenses<br/>The actual codes are substituted for key_codes "
+"when the email is sent."
+msgstr ""
+
+#: admin/classes/createitem.php:268 admin/classes/edititem.php:332
+#: admin/classes/listitems.php:80 admin/classes/listitems.php:97
+msgid "Lower Limit"
+msgstr ""
+
+#: admin/classes/createitem.php:273 admin/classes/edititem.php:337
+msgid "Key Codes"
+msgstr ""
+
+#: admin/classes/createitem.php:296
+msgid "You have successfully created a new item."
+msgstr ""
+
+#: admin/classes/createitem.php:299
+msgid "Lower Limit must be an integer value - no data has been saved."
+msgstr ""
+
+#: admin/classes/createitem.php:302 admin/classes/edititem.php:372
+msgid "Gross value must be two decimal places - no data has been saved."
+msgstr ""
+
+#: admin/classes/createitem.php:305 admin/classes/edititem.php:375
+msgid ""
+"Either item name or item number are duplicated values- no data has been "
+"saved."
+msgstr ""
+
+#: admin/classes/deleteitem.php:109
+msgid "WordPress PHP-KeyCodes - Confirm deletion of item"
+msgstr ""
+
+#: admin/classes/deleteitem.php:146
+msgid "Are you sure you want to delete this record?"
+msgstr ""
+
+#: admin/classes/deleteitem.php:170
+msgid "The item was deleted."
+msgstr ""
+
+#: admin/classes/deleteitem.php:173
+msgid "The deletion was cancelled."
+msgstr ""
+
+#: admin/classes/edititem.php:203
+msgid "WordPress PHP-KeyCodes - Edit item"
+msgstr ""
+
+#: admin/classes/edititem.php:204
+msgid "This page edits the item"
+msgstr ""
+
+#: admin/classes/edititem.php:322
+msgid "Email Subject"
+msgstr ""
+
+#: admin/classes/edititem.php:327
+msgid "Email Text"
+msgstr ""
+
+#: admin/classes/edititem.php:345
+msgid "Update Item"
+msgstr ""
+
+#: admin/classes/edititem.php:355 admin/classes/listitems.php:166
+#: admin/classes/sales.php:138 admin/classes/salesdetails.php:310
+msgid "No items found"
+msgstr ""
+
+#: admin/classes/edititem.php:369
+msgid "You have successfully updated the item."
+msgstr ""
+
+#: admin/classes/htmloutput.php:308
+msgid "Select a page&hellip;"
+msgstr ""
+
+#: admin/classes/listitems.php:23
+msgid "WordPress PHP-KeyCodes - Item list"
+msgstr ""
+
+#: admin/classes/listitems.php:24
+msgid "List of items"
+msgstr ""
+
+#: admin/classes/listitems.php:53 admin/classes/sales.php:52
+msgid "«"
+msgstr ""
+
+#: admin/classes/listitems.php:54 admin/classes/sales.php:53
+msgid "»"
+msgstr ""
+
+#: admin/classes/listitems.php:74 admin/classes/listitems.php:91
+msgid "Rec id"
+msgstr ""
+
+#: admin/classes/listitems.php:75 admin/classes/listitems.php:92
+msgid "Item Number"
+msgstr ""
+
+#: admin/classes/listitems.php:76 admin/classes/listitems.php:93
+msgid "Item Name"
+msgstr ""
+
+#: admin/classes/listitems.php:77 admin/classes/listitems.php:94
+msgid "Item Title"
+msgstr ""
+
+#: admin/classes/listitems.php:81 admin/classes/listitems.php:98
+msgid "Short Code"
+msgstr ""
+
+#: admin/classes/listitems.php:82 admin/classes/listitems.php:99
+msgid "Button Code"
+msgstr ""
+
+#: admin/classes/listitems.php:127
+msgid "View"
+msgstr ""
+
+#: admin/classes/listitems.php:140 admin/classes/posttypes.php:75
+msgid "Edit"
+msgstr ""
+
+#: admin/classes/listitems.php:146
+msgid "Delete"
+msgstr ""
+
+#: admin/classes/localtest.php:162
+msgid "WordPress PHP-KeyCodes - Local test"
+msgstr ""
+
+#: admin/classes/localtest.php:163
+msgid "Test an item locally, not through PayPal"
+msgstr ""
+
+#: admin/classes/localtest.php:172
+msgid "You need to set local test mode to do a local test."
+msgstr ""
+
+#: admin/classes/localtest.php:202
+msgid "Receiver email"
+msgstr ""
+
+#: admin/classes/localtest.php:202
+msgid ""
+"This is the email address which PayPal uses to send confirmation emails, "
+"normally it is your email address"
+msgstr ""
+
+#: admin/classes/localtest.php:207
+msgid "Item number reference"
+msgstr ""
+
+#: admin/classes/localtest.php:207
+msgid "The item number reference of the item."
+msgstr ""
+
+#: admin/classes/localtest.php:214
+msgid "Quantity"
+msgstr ""
+
+#: admin/classes/localtest.php:221
+msgid "Payment status"
+msgstr ""
+
+#: admin/classes/localtest.php:221
+msgid ""
+"Defines the status from Paypal - selecting completed will simulate a "
+"completed transaction."
+msgstr ""
+
+#: admin/classes/localtest.php:233
+msgid "Payment gross"
+msgstr ""
+
+#: admin/classes/localtest.php:233
+msgid ""
+"The gross value of the goods which must be the same as entered into the "
+"database in the form of x.yz."
+msgstr ""
+
+#: admin/classes/localtest.php:240
+msgid "Currency Code"
+msgstr ""
+
+#: admin/classes/localtest.php:240
+msgid "The currency code which must be the same as entered into the database."
+msgstr ""
+
+#: admin/classes/localtest.php:270
+msgid "Transaction ID"
+msgstr ""
+
+#: admin/classes/localtest.php:270
+msgid ""
+"(required) The PayPal transaction id. You can enter any random series of "
+"characters here, I place the current time and date."
+msgstr ""
+
+#: admin/classes/localtest.php:277 admin/classes/posttypes.php:233
+msgid "Transaction Type"
+msgstr ""
+
+#: admin/classes/localtest.php:288
+msgid "Payer email"
+msgstr ""
+
+#: admin/classes/localtest.php:288
+msgid ""
+"This is the email address of the purchaser.  For this test, enter a personal "
+"email address so that you can see the resulting emails."
+msgstr ""
+
+#: admin/classes/localtest.php:301
+msgid "Submit The Test"
+msgstr ""
+
+#: admin/classes/localtest.php:328
+msgid "A local test has been actioned - check your email."
+msgstr ""
+
+#: admin/classes/localtest.php:331
+msgid ""
+"Error - no test was actioned because the Gross value needs to be two decimal "
+"places."
+msgstr ""
+
+#: admin/classes/posttypes.php:36 admin/classes/posttypes.php:38
+#: admin/classes/posttypes.php:39
+msgid "PayPal IPN Types"
+msgstr ""
+
+#: admin/classes/posttypes.php:40
+msgctxt "Admin menu name"
+msgid "PayPal IPN Types"
+msgstr ""
+
+#: admin/classes/posttypes.php:41
+msgid "Search PayPal IPN Types"
+msgstr ""
+
+#: admin/classes/posttypes.php:42
+msgid "All PayPal IPN Types"
+msgstr ""
+
+#: admin/classes/posttypes.php:43
+msgid "Parent PayPal IPN Types"
+msgstr ""
+
+#: admin/classes/posttypes.php:44
+msgid "Parent PayPal IPN Types:"
+msgstr ""
+
+#: admin/classes/posttypes.php:45
+msgid "Edit PayPal IPN Types"
+msgstr ""
+
+#: admin/classes/posttypes.php:46
+msgid "Update PayPal IPN Types"
+msgstr ""
+
+#: admin/classes/posttypes.php:47
+msgid "Add New PayPal IPN Types"
+msgstr ""
+
+#: admin/classes/posttypes.php:48
+msgid "New PayPal IPN Types Name"
+msgstr ""
+
+#: admin/classes/posttypes.php:70 admin/classes/posttypes.php:71
+msgid "PayPal IPN"
+msgstr ""
+
+#: admin/classes/posttypes.php:72
+msgctxt "Admin menu name"
+msgid "PayPal IPN"
+msgstr ""
+
+#: admin/classes/posttypes.php:73
+msgid "Add PayPal IPN"
+msgstr ""
+
+#: admin/classes/posttypes.php:74
+msgid "Add New PayPal IPN"
+msgstr ""
+
+#: admin/classes/posttypes.php:77
+msgid "New PayPal IPN"
+msgstr ""
+
+#: admin/classes/posttypes.php:80
+msgid "Search PayPal IPN"
+msgstr ""
+
+#: admin/classes/posttypes.php:81
+msgid "No PayPal IPN found"
+msgstr ""
+
+#: admin/classes/posttypes.php:82
+msgid "No PayPal IPN found in trash"
+msgstr ""
+
+#: admin/classes/posttypes.php:83
+msgid "Parent PayPal IPN"
+msgstr ""
+
+#: admin/classes/posttypes.php:85
+msgid "This is where you can add new IPN to your store."
+msgstr ""
+
+#: admin/classes/posttypes.php:124
+#, php-format
+msgid " <span class=\"count\">(%s)</span>"
+msgid_plural " <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/classes/posttypes.php:136
+msgid "Show All Transaction"
+msgstr ""
+
+#: admin/classes/posttypes.php:155
+msgid "Show all Payment Statuses"
+msgstr ""
+
+#: admin/classes/posttypes.php:228
+msgctxt "withinweb-wwkcp-keycodes"
+msgid "Transaction ID"
+msgstr ""
+
+#: admin/classes/posttypes.php:229
+msgctxt "withinweb-wwkcp-keycodes"
+msgid "Invoice ID"
+msgstr ""
+
+#: admin/classes/posttypes.php:230
+msgctxt "withinweb-wwkcp-keycodes"
+msgid "Date"
+msgstr ""
+
+#: admin/classes/posttypes.php:231
+msgctxt "withinweb-wwkcp-keycodes"
+msgid "Name / Company"
+msgstr ""
+
+#: admin/classes/posttypes.php:232
+msgid "Amount"
+msgstr ""
+
+#: admin/classes/posttypes.php:234 admin/classes/sales.php:76
+#: admin/classes/sales.php:90
+msgid "Payment Status"
+msgstr ""
+
+#: admin/classes/posttypes.php:378
+msgid "PayPal IPN Fields"
+msgstr ""
+
+#: admin/classes/posttypes.php:387 admin/classes/posttypes.php:393
+msgid "IPN Field Name"
+msgstr ""
+
+#: admin/classes/posttypes.php:388 admin/classes/posttypes.php:394
+msgid "IPN Field Value"
+msgstr ""
+
+#: admin/classes/premium.php:22
+msgid "WordPress PHP-KeyCodes - Upgrade to Premium"
+msgstr ""
+
+#: admin/classes/premium.php:33
+msgid "PHP-KeyCodes is brought to you from the withinweb.com web site:"
+msgstr ""
+
+#: admin/classes/premium.php:37
+msgid "Differences between free and Premium version"
+msgstr ""
+
+#: admin/classes/premium.php:39
+msgid ""
+"The premium version has more facilities than the free version and has "
+"priority support.  With the premium version \n"
+"\t\t\t\t\t\tyou can create more than one product item so that you can "
+"distribute multiple key codes.  The premium version also has \n"
+"\t\t\t\t\t\ta sales history display which shows the purchased license codes."
+msgstr ""
+
+#: admin/classes/premium.php:43
+msgid "Purchase WordPress PHP-KeyCodes Premium"
+msgstr ""
+
+#: admin/classes/premium.php:45
+msgid ""
+"We use PayPal because it is secure and accepts payment from most credit "
+"cards."
+msgstr ""
+
+#: admin/classes/premium.php:47
+msgid ""
+"The complete transaction is handled by the PayPal secure server system.  "
+"PayPal is  \n"
+"\t\t\t\t\t\tresponsible for handling the credit card and other payment "
+"details."
+msgstr ""
+
+#: admin/classes/premium.php:50
+msgid ""
+"If you have not purchased anything through PayPal before, you will be able "
+"to register \n"
+"\t\t\t\t\t\twith PayPal, or you may purchase by credit card without "
+"registering."
+msgstr ""
+
+#: admin/classes/premium.php:53
+msgid ""
+"MAKE SURE THAT THE EMAIL ADDRESS YOU ENTER INTO PAYPAL IS VALID AS THIS WILL "
+"BE \n"
+"\t\t\t\t\t\tTHE EMAIL ADDRESS THAT YOUR DOWNLOAD DETAILS WILL BE SENT TO"
+msgstr ""
+
+#: admin/classes/premium.php:56
+msgid ""
+"Once your payment has been accepted you will receive an email from us with a "
+"web link \n"
+"\t\t\t\t\t\tfrom where you download the zip file."
+msgstr ""
+
+#: admin/classes/premium.php:59
+msgid ""
+"The premium version may be purchased for <strong>$20.00 USD</strong> by "
+"clicking on the following \n"
+"\t\t\t\t\t\tbutton:"
+msgstr ""
+
+#: admin/classes/premium.php:74
+msgid ""
+"If you have the free version of the plugin, Deactivate and Delete it before "
+"you install the Premium version.  Having both the \n"
+"\t\t\t\t\t\tPremium and Free version active should not be an issue but may "
+"may cause confusion."
+msgstr ""
+
+#: admin/classes/premium.php:77
+msgid "Purchase from the WithinWeb.com site"
+msgstr ""
+
+#: admin/classes/premium.php:79
+msgid ""
+"You can also purchase from the withinweb.com web site and see other PHP / "
+"MySQL applications:"
+msgstr ""
+
+#: admin/classes/sales.php:23
+msgid "WordPress PHP-KeyCodes - Sales list"
+msgstr ""
+
+#: admin/classes/sales.php:24
+msgid "List of sales"
+msgstr ""
+
+#: admin/classes/sales.php:73 admin/classes/sales.php:87
+msgid "Receiver Email"
+msgstr ""
+
+#: admin/classes/sales.php:77 admin/classes/sales.php:91
+msgid "Completed"
+msgstr ""
+
+#: admin/classes/sales.php:79 admin/classes/sales.php:93
+msgid "Payer Email"
+msgstr ""
+
+#: admin/classes/sales.php:80 admin/classes/sales.php:94
+msgid "License Codes"
+msgstr ""
+
+#: admin/classes/sales.php:81 admin/classes/sales.php:95
+msgid "Details"
+msgstr ""
+
+#: admin/classes/sales.php:117 update/Puc/v4p4/Plugin/UpdateChecker.php:432
+msgid "View details"
+msgstr ""
+
+#: admin/classes/salesdetails.php:22
+msgid "WordPress PHP-KeyCodes - Sales detail"
+msgstr ""
+
+#: admin/classes/salesdetails.php:23
+msgid "Lists the sales details for this item"
+msgstr ""
+
+#: admin/classes/settings.php:133
+msgid "WordPress PHP-KeyCodes - Settings"
+msgstr ""
+
+#: admin/classes/settings.php:134
+msgid ""
+"This page provides you with the set up that is required to use the KeyCodes "
+"system"
+msgstr ""
+
+#: admin/classes/settings.php:140 admin/classes/settings.php:150
+msgid "IPN Call Back URL"
+msgstr ""
+
+#: admin/classes/settings.php:155
+msgid "PayPal environment"
+msgstr ""
+
+#: admin/classes/settings.php:170 admin/classes/settings.php:215
+msgid "Save changes"
+msgstr ""
+
+#: admin/classes/settings.php:176
+msgid "Debug options"
+msgstr ""
+
+#: admin/classes/settings.php:186
+msgid "Debug Log"
+msgstr ""
+
+#: admin/classes/settings.php:192
+msgid "Enable logging"
+msgstr ""
+
+#: admin/classes/settings.php:193
+msgid "Log PayPal events, such as IPN requests, at"
+msgstr ""
+
+#: admin/classes/settings.php:196
+#, php-format
+msgid ""
+"Log directory (<code>%s</code>) is not writable. To allow logging, make this "
+"writable or define a custom <code>WWKCP_KEYCODES_LOG_DIR</code>."
+msgstr ""
+
+#: admin/classes/settings.php:206
+msgid "Enable Local Test"
+msgstr ""
+
+#: admin/classes/settings.php:207
+msgid ""
+"Tick to enable local test.  Disable this for normal Live and Sandbox "
+"operation."
+msgstr ""
+
+#: admin/classes/settings.php:230
+msgid "PayPal email address"
+msgstr ""
+
+#: admin/classes/settings.php:235
+msgid "Cancel URL"
+msgstr ""
+
+#: admin/classes/settings.php:240
+msgid "Return URL"
+msgstr ""
+
+#: admin/classes/settings.php:245
+msgid "Sandbox PayPal email address"
+msgstr ""
+
+#: admin/classes/settings.php:253
+msgid "Save PayPal Settings"
+msgstr ""
+
+#: admin/classes/settings.php:267
+msgid "You have successfully updated your settings."
+msgstr ""
+
+#: admin/classes/settings.php:270
+msgid "Email address not saved."
+msgstr ""
+
+#: includes/keycodescore.php:70
+msgid "Docs"
+msgstr ""
+
+#: includes/keycodescore.php:71
+msgid "Support"
+msgstr ""
+
+#: includes/keycodescore.php:72
+msgid "Write a Review"
+msgstr ""
+
+#: update/Puc/v4p4/Plugin/UpdateChecker.php:395
+msgid "Check for updates"
+msgstr ""
+
+#: update/Puc/v4p4/Plugin/UpdateChecker.php:455
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: update/Puc/v4p4/Plugin/UpdateChecker.php:548
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: update/Puc/v4p4/Plugin/UpdateChecker.php:550
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: update/Puc/v4p4/Plugin/UpdateChecker.php:552
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: update/Puc/v4p4/Plugin/UpdateChecker.php:558
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: update/Puc/v4p4/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
